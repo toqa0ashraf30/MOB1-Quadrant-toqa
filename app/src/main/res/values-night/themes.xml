@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Quadrant" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <color name="bg_color">#0B0E17</color>
+    <color name="box_1">#3B0764</color>
+    <color name="box_2">#581C87</color>
+    <color name="box_3">#7E22CE</color>
+    <color name="box_4">#9333EA</color>
+</resources>

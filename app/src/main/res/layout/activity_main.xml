@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    android:padding="8dp">
+
+    <!-- الصف الأول -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- الربع الأول -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/box_1"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/_4b6bcc65fd7d5f8853cb086bc398e877" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="What is a Black Hole"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- تم إضافة لون أبيض ومسافات وتوسيط هنا -->
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="8dp"
+                android:layout_marginTop="8dp"
+                android:text="It is a region in space where gravity is so incredibly strong that nothing can escape it—not even light! It usually forms when a massive star collapses in on itself at the end of its life. The point of no return is called the &quot;Event Horizon.&quot;" />
+        </LinearLayout>
+
+        <!-- الربع الثاني -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/box_2"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/_3d668a37f77a95e51fba48ee5cbc87a2" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="How do we see it ?"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- تم إضافة لون أبيض ومسافات وتوسيط هنا -->
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Since light cannot escape it, we cannot see it directly. However, we observe it through its effects: the hot gas and dust surrounding it glow intensely (the accretion disk)" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- الصف الثاني -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- الربع الثالث -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/box_3"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ac49e6151e1d6481defc8a29734c66e9" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Its Types and Sizes"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- تم إضافة لون أبيض ومسافات وتوسيط هنا -->
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="8dp"
+                android:text="1. Stellar Black Holes\n2. Supermassive Black Holes\n3. Intermediate Black Holes"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- الربع الرابع -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/box_4"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/e265c5968407c47404b4796231e4aef2" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Amazing Facts"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- تم إضافة لون أبيض ومسافات وتوسيط هنا -->
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Time slows down significantly near the event horizon (time dilation).
+
+               &quot;Hawking Radiation&quot;: A black hole can gradually lose its mass through quantum radiation." />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

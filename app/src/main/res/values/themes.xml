@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Quadrant" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <color name="bg_color">#F8F9FA</color>
+        <color name="box_1">#2E1065</color>
+        <color name="box_2">#4C1D95</color>
+        <color name="box_3">#5B21B6</color>
+        <color name="box_4">#6D28D9</color>
+
+
+
+
+    <style name="Theme.Quadrant" parent="Base.Theme.Quadrant" />
+</resources>
